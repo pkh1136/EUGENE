@@ -162,6 +162,8 @@ button,input,select,textarea{font:inherit;color:inherit}
 .cerr{font-size:var(--t-xs);color:var(--up);line-height:1.6}
 .consult-foot{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
 .consult-done{display:grid;gap:12px;margin-top:20px;padding-top:18px;border-top:1px solid var(--line)}
+.linkbtn{border:0;background:none;color:var(--gold);text-decoration:underline;text-underline-offset:3px;cursor:pointer;font:inherit;padding:0 2px}
+.linkbtn:hover{color:var(--ink)}
 .consult-done dl{margin:0}
 @media (max-width:420px){ .consult .two{grid-template-columns:minmax(0,1fr)} }
 .empty-digest{display:grid;gap:12px;font-size:var(--t-sm);line-height:1.7}
@@ -563,9 +565,13 @@ footer b{color:var(--ink-2);font-weight:500;margin-right:6px}
             </select></div></div>
           <div class="field"><label for="cMemo">요청 내용 (선택)</label>
             <textarea id="cMemo" rows="2" placeholder="예: 보유 중인 반도체 종목 비중 조절을 상의하고 싶습니다"></textarea></div>
+          <div class="field"><label for="cContact">회신받을 연락처 (선택)</label>
+            <div class="in"><input type="text" id="cContact" autocomplete="off" maxlength="80" placeholder="이메일 또는 전화번호"></div></div>
+          <input type="checkbox" id="cBot" tabindex="-1" autocomplete="off" style="display:none" aria-hidden="true">
+          <p class="note" id="cAttachNote" hidden=""></p>
           <p class="cerr" id="cErr" hidden=""></p>
           <div class="consult-foot">
-            <span class="note">등록된 연락처로 담당 직원이 연락드립니다</span>
+            <span class="note">연락처를 남기시면 담당 직원이 연락드립니다</span>
             <button class="btn gold" type="submit" id="cSend">상담 요청 보내기</button>
           </div>
         </form>
@@ -855,6 +861,15 @@ footer b{color:var(--ink-2);font-weight:500;margin-right:6px}
 <div class="toast" id="toast" hidden></div>
 
 <script>
+/* 사이트 설정: 값을 바꿀 때는 여기만 고치세요. */
+window.SITE_CONFIG = {
+  // 상담 요청을 Gmail로 받으려면 Web3Forms 액세스 키를 넣으세요.
+  // https://web3forms.com 에서 받을 Gmail 주소를 입력하면 키가 메일로 옵니다(무료).
+  // 이 키는 화면에 공개되는 값이며, 키에 등록한 주소로 메일을 보내는 용도로만 쓸 수 있습니다.
+  consultMailKey: ""
+};
+</script>
+<script>
 (function(){
 "use strict";
 const $ = s => document.querySelector(s);
@@ -1013,6 +1028,56 @@ new MutationObserver(() => setTimeout(drawRosette, 30)).observe(document.documen
    Branches: eugenefn.com 지점안내 (/cpkr/ckbi/ckbi100r.do). Staff: eugenefn.com 디지털PB 소개 (/serv/dgpb/dgpb101r.do).
    Set CONSULT_ENDPOINT to the company's intake API to send requests; it receives the JSON built in sendConsult(). */
 const CONSULT_ENDPOINT = "";
+
+/* Requests are mailed to the owner's Gmail through Web3Forms when SITE_CONFIG.consultMailKey is set.
+   With no key (and no CONSULT_ENDPOINT) the form only shows what would be sent. */
+const MAIL_API = "https://api.web3forms.com/submit";
+const consultKey = () => String(window.SITE_CONFIG && window.SITE_CONFIG.consultMailKey || "").trim();
+let consultAttach = null;   // set by "이 대화를 PB에게 전달": the research-lounge conversation travels with the request
+function paintAttachNote(){
+  const n = $("#cAttachNote"); n.hidden = !consultAttach;
+  if (!consultAttach) return;
+  n.innerHTML = `리서치 라운지 대화 ${consultAttach.turns.length}건이 상담 요청과 함께 전달됩니다. <button type="button" class="linkbtn" id="cAttachDrop">빼기</button>`;
+  $("#cAttachDrop").onclick = () => { consultAttach = null; paintAttachNote(); };
+}
+function transcriptText(a){
+  const t = a.turns.map(m => `${m.role === "user" ? "고객" : "어시스턴트"}: ${String(m.content).replace(/\s+/g, " ").trim()}`).join("\n");
+  return t.length > 6000 ? t.slice(0, 6000) + "\n…(이하 생략)" : t;
+}
+function consultMailText(req, who){
+  const day = "일월화수목금토"[new Date(req.date + "T00:00:00").getDay()];
+  const lines = [
+    `지점: ${req.branch} (${req.branchTel})`,
+    `상담 직원: ${who}`,
+    `희망 일시: ${req.date} (${day}) ${req.time}`,
+    `상담 방법: ${req.way}`,
+    `상담 주제: ${req.topic}`,
+    `회신 연락처: ${req.contact || "남기지 않음"}`,
+    "", "요청 내용:", req.memo || "(작성하지 않음)"
+  ];
+  if (req.transcript) lines.push("", `── 리서치 라운지 대화 (${req.report || "리포트"}) ──`, req.transcript);
+  lines.push("", `전송 페이지: ${location.href}`);
+  return lines.join("\n");
+}
+async function deliverConsult(req, who){
+  const key = consultKey();
+  if (key){
+    const [, mo, da] = req.date.split("-"), day = "일월화수목금토"[new Date(req.date + "T00:00:00").getDay()];
+    const email = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(req.contact || "") ? req.contact : null;
+    const r = await fetch(MAIL_API, {method:"POST", headers:{"Content-Type":"application/json", "Accept":"application/json"},
+      body: JSON.stringify({access_key:key, subject:`[VIP 상담 요청] ${req.branch} · ${+mo}/${+da}(${day}) ${req.time} · ${req.way}`,
+        from_name:"유진투자증권 VIP 라운지", message:consultMailText(req, who), ...(email ? {replyto:email} : {}), botcheck:""})});
+    const j = await r.json().catch(() => ({}));
+    if (!r.ok || !j.success) throw new Error(j.message || String(r.status));
+    return true;
+  }
+  if (CONSULT_ENDPOINT){
+    const r = await fetch(CONSULT_ENDPOINT, {method:"POST", headers:{"Content-Type":"application/json"}, credentials:"include", body:JSON.stringify(req)});
+    if (!r.ok) throw new Error(String(r.status));
+    return true;
+  }
+  return false;
+}
 const BRANCHES = [
   {id:"yeouido",   name:"여의도WM센터",   addr:"서울특별시 영등포구 국제금융로 24 유진그룹빌딩 2층", tel:"02-368-6600"},
   {id:"champions", name:"챔피언스라운지", addr:"서울특별시 강남구 학동로 156 성덕빌딩 1F - 4F", tel:"02-554-6500"},
@@ -1105,16 +1170,16 @@ async function sendConsult(extra){
   const req = {
     branch: br.name, branchTel: br.tel, staff: staff === DESK ? null : staff,
     date, time, way: (document.querySelector('input[name="cWay"]:checked') || {}).value,
-    topic: $("#cTopic").value, memo: $("#cMemo").value.trim(), ...(extra || {})
+    topic: $("#cTopic").value, memo: $("#cMemo").value.trim(), contact: $("#cContact").value.trim() || null, ...(extra || {})
   };
+  if ($("#cBot").checked) return false;   // hidden trap field: only bots tick it
+  if (consultAttach){ req.attach = `리서치 라운지 대화 ${consultAttach.turns.length}건`; req.report = consultAttach.report; req.transcript = transcriptText(consultAttach); }
   const who = req.staff ? `${req.staff} PB` : `${br.name} 상담 데스크`;
   let sent = false;
-  if (CONSULT_ENDPOINT){
+  if (consultKey() || CONSULT_ENDPOINT){
     $("#cSend").disabled = true;
     try {
-      const r = await fetch(CONSULT_ENDPOINT, {method:"POST", headers:{"Content-Type":"application/json"}, credentials:"include", body:JSON.stringify(req)});
-      if (!r.ok) throw new Error(String(r.status));
-      sent = true;
+      sent = await deliverConsult(req, who);
     } catch(e){ consultError(`요청을 보내지 못했습니다. 잠시 뒤 다시 시도하시거나 ${br.name}(${br.tel})로 전화해 주세요.`); return false; }
     finally { $("#cSend").disabled = false; }
   }
@@ -1131,8 +1196,9 @@ async function sendConsult(extra){
       <dt>주제</dt><dd>${esc(req.topic)}</dd>
       ${req.attach ? `<dt>첨부</dt><dd>${esc(req.attach)}</dd>` : ""}
     </dl>
-    <p class="note">${sent ? "확정되면 등록된 연락처로 안내드립니다." : "시안 화면이라 실제로 전송되지는 않았습니다. 상담 접수 서버를 연결하면 이 내용이 담당 직원에게 전달됩니다."} 급한 상담은 ${esc(br.name)} <span class="nw">${esc(br.tel)}</span>로 연락해 주세요.</p>
+    <p class="note">${sent ? "상담 요청이 접수되어 담당자에게 전달되었습니다." + (req.contact ? " 확정되면 남겨 주신 연락처로 안내드립니다." : " 연락처를 남기지 않으셔서 회신은 어려울 수 있습니다.") : "시안 화면이라 실제로 전송되지는 않았습니다. 메일 전송 키나 상담 접수 서버를 연결하면 이 내용이 담당자에게 전달됩니다."} 급한 상담은 ${esc(br.name)} <span class="nw">${esc(br.tel)}</span>로 연락해 주세요.</p>
     <button class="btn sm line" type="button" id="cAgain">다른 요청 작성</button>`;
+  if (sent){ consultAttach = null; paintAttachNote(); }
   $("#cAgain").onclick = () => { $("#consultDone").hidden = true; $("#consultForm").hidden = false; $("#cMemo").value = ""; };
   return true;
 }
@@ -1143,6 +1209,8 @@ $("#sendPB").onclick = () => {
   if (!R.turns.length){ toast("전달할 대화가 없습니다. 리포트에 먼저 질문해 보세요."); return; }
   $("#cTopic").value = "리서치 리포트 문의";
   $("#cMemo").value = `[${R.digest && R.digest.company || R.name || "리포트"}] 리서치 라운지 대화 ${R.turns.length}건을 함께 검토 부탁드립니다.`;
+  consultAttach = {report: R.digest && R.digest.company ? `${R.digest.company}${R.digest.headline ? " · " + R.digest.headline : ""}` : (R.name || "리포트"), turns: R.turns.slice()};
+  paintAttachNote();
   $("#consultDone").hidden = true; $("#consultForm").hidden = false;
   go("pb");
   toast("상담 요청서에 대화 내용을 담았습니다. 지점과 직원을 확인하고 보내 주세요.");
