@@ -1,0 +1,6 @@
+# 사이트에 필요한 파일만 올립니다
+리포트/
+.claude/
+board-proxy.ps1
+*.pdf
+*.log
