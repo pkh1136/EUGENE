@@ -1,86 +1,86 @@
 {
-  "updatedAt": "2026-10-28T23:05:09.321Z",
+  "updatedAt": "2026-10-29T23:02:25.703Z",
   "source": "https://www.eugenefn.com/comm/msgList.do?menu_id=02010401&menu_url=/ingo/igii/igii400&menu_lever=4&board_yn=Y",
   "rows": [
     {
-      "sector": "산업재",
-      "title": "HD현대중공업 3Q26 Review - 피크아웃 우려를 이겨낼 조선사",
-      "msgId": "524614",
-      "attachId": "96863",
-      "date": "2026.10.29",
-      "author": "양승윤"
-    },
-    {
-      "sector": "내수",
-      "title": "파마리서치 - 3Q26 Preview: 성장 모멘텀은 여전히 유효",
-      "msgId": "524612",
-      "attachId": "96861",
-      "date": "2026.10.29",
-      "author": "이다빈"
-    },
-    {
-      "sector": "산업재",
-      "title": "삼성물산 - 바이오 부문 감익 불구 컨센서스 상회한 실적",
-      "msgId": "524611",
-      "attachId": "96860",
-      "date": "2026.10.29",
-      "author": "한병화"
-    },
-    {
       "sector": "IT",
-      "title": "SK하이닉스 - 이번은 다르다고 할 수 있는 근거",
-      "msgId": "524607",
-      "attachId": "96853",
-      "date": "2026.10.28",
-      "author": "손인준"
-    },
-    {
-      "sector": "산업재",
-      "title": "한화시스템 3Q26 Review - 필리를 걷어내고 나니 보이는 진짜 실력",
-      "msgId": "524517",
-      "attachId": "96844",
-      "date": "2026.10.28",
-      "author": "양승윤"
-    },
-    {
-      "sector": "산업재",
-      "title": "한화오션 3Q26 Review - 상선 방어 성공, 해양과 특수선 반전 필요",
-      "msgId": "524516",
-      "attachId": "96843",
-      "date": "2026.10.28",
-      "author": "양승윤"
-    },
-    {
-      "sector": "산업재",
-      "title": "영광와이케이엠씨(345290, IPO 예정기업) - 글로벌 Top-Tier가 선택한 첨단장비 핵심부품 기업",
-      "msgId": "524515",
-      "attachId": "96842",
-      "date": "2026.10.28",
-      "author": "박종선"
-    },
-    {
-      "sector": "IT",
-      "title": "칩스앤미디어(094360,KQ) - 3Q26P Review: 역대 3분기 최고 라이선스 매출",
-      "msgId": "524513",
-      "attachId": "96841",
-      "date": "2026.10.28",
+      "title": "에이엘로봇(471800, IPO예정기업) - 힘/토크 센서와 제어 기술을 내재화한 핵심부품 기업",
+      "msgId": "524728",
+      "attachId": "96891",
+      "date": "2026.10.30",
       "author": "박종선"
     },
     {
       "sector": "산업재",
-      "title": "대우건설 3Q26 Review - 양호한 실적, 예고한 수주를 기다리며",
-      "msgId": "524510",
-      "attachId": "96838",
-      "date": "2026.10.28",
-      "author": "류태환"
+      "title": "두산에너빌리티 3Q26 Review - 펀더멘털은 견고, 노이즈로 인한 일시적 주가 하락",
+      "msgId": "524727",
+      "attachId": "96890",
+      "date": "2026.10.30",
+      "author": "황성현"
     },
     {
-      "sector": "IT",
-      "title": "RFHIC - 반격 시작!",
-      "msgId": "524509",
-      "attachId": "96837",
-      "date": "2026.10.28",
-      "author": "이찬영"
+      "sector": "산업재",
+      "title": "한화솔루션 3Q26 Review - 올해보다 내년",
+      "msgId": "524726",
+      "attachId": "96889",
+      "date": "2026.10.30",
+      "author": "황성현"
+    },
+    {
+      "sector": "산업재",
+      "title": "OCI홀딩스 3Q26 Review - 여전히 긍정적, 2027년 본격 성장 전망",
+      "msgId": "524725",
+      "attachId": "96888",
+      "date": "2026.10.30",
+      "author": "황성현"
+    },
+    {
+      "sector": "산업재",
+      "title": "SK이노베이션 3Q26 Review - 정유주 중 가장 덜 오름",
+      "msgId": "524724",
+      "attachId": "96887",
+      "date": "2026.10.30",
+      "author": "황성현"
+    },
+    {
+      "sector": "산업재",
+      "title": "삼성SDI 3Q26 Review - 훌륭한 실적과 미래에 대한 기대감",
+      "msgId": "524723",
+      "attachId": "96886",
+      "date": "2026.10.30",
+      "author": "황성현"
+    },
+    {
+      "sector": "산업재",
+      "title": "진에어 3Q26 Preview - 봄날은 온다",
+      "msgId": "524721",
+      "attachId": "96884",
+      "date": "2026.10.30",
+      "author": "양승윤"
+    },
+    {
+      "sector": "산업재",
+      "title": "한화에어로스페이스 3Q26 Review - 여전히 비중확대 의견, 그리고 Top-Pick",
+      "msgId": "524720",
+      "attachId": "96883",
+      "date": "2026.10.30",
+      "author": "양승윤"
+    },
+    {
+      "sector": "산업재",
+      "title": "현대차 - 3Q26 Review: 4분기 실적 반등 기대감 Up",
+      "msgId": "524719",
+      "attachId": "96882",
+      "date": "2026.10.30",
+      "author": "이재일"
+    },
+    {
+      "sector": "소재",
+      "title": "세아베스틸지주 3Q26 Review - 2보 전진을 위한 1보 후퇴",
+      "msgId": "524718",
+      "attachId": "96881",
+      "date": "2026.10.30",
+      "author": "김소정"
     }
   ]
 }
