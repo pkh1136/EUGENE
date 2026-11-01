@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-11-01T22:58:19.785Z",
+  "updatedAt": "2026-11-01T23:27:22.964Z",
   "source": "https://www.eugenefn.com/comm/msgList.do?menu_id=02010401&menu_url=/ingo/igii/igii400&menu_lever=4&board_yn=Y",
   "rows": [
+    {
+      "sector": "산업재",
+      "title": "한솔제지(213500,KS) - 3Q26P Review: 단가인상 효과로 수익성 개선 기대",
+      "msgId": "524849",
+      "attachId": "96925",
+      "date": "2026.11.02",
+      "author": "박종선"
+    },
+    {
+      "sector": "내수",
+      "title": "골프존(215000,KQ) - 3Q26P Review: 11분기만에 매출 증가세로 전환",
+      "msgId": "524848",
+      "attachId": "96924",
+      "date": "2026.11.02",
+      "author": "박종선"
+    },
+    {
+      "sector": "IT",
+      "title": "LG씨엔에스(064400,KS) - 3Q26P Review: 수익성 개선 및 시장기대치 부합",
+      "msgId": "524847",
+      "attachId": "96923",
+      "date": "2026.11.02",
+      "author": "박종선"
+    },
     {
       "sector": "내수",
       "title": "SOOP - 증명이 필요한 시기",
@@ -57,30 +81,6 @@
       "attachId": "96910",
       "date": "2026.11.02",
       "author": "이재일"
-    },
-    {
-      "sector": "산업재",
-      "title": "기아 - 3Q26 Review: EV 판매 증가의 역풍",
-      "msgId": "524833",
-      "attachId": "96909",
-      "date": "2026.11.02",
-      "author": "이재일"
-    },
-    {
-      "sector": "소재",
-      "title": "현대제철 3Q26 Review - 대형 설비 업체에겐 판매량이 중요",
-      "msgId": "524832",
-      "attachId": "96908",
-      "date": "2026.11.02",
-      "author": "김소정"
-    },
-    {
-      "sector": "IT",
-      "title": "에이엘로봇(471800, IPO예정기업) - 힘/토크 센서와 제어 기술을 내재화한 핵심부품 기업",
-      "msgId": "524728",
-      "attachId": "96891",
-      "date": "2026.10.30",
-      "author": "박종선"
     }
   ]
 }
