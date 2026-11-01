@@ -1,7 +1,79 @@
 {
-  "updatedAt": "2026-10-29T23:02:25.703Z",
+  "updatedAt": "2026-11-01T22:58:19.785Z",
   "source": "https://www.eugenefn.com/comm/msgList.do?menu_id=02010401&menu_url=/ingo/igii/igii400&menu_lever=4&board_yn=Y",
   "rows": [
+    {
+      "sector": "내수",
+      "title": "SOOP - 증명이 필요한 시기",
+      "msgId": "524842",
+      "attachId": "96918",
+      "date": "2026.11.02",
+      "author": "이현지"
+    },
+    {
+      "sector": "내수",
+      "title": "제일기획 - 그래도 강력한 주주환원 의지",
+      "msgId": "524841",
+      "attachId": "96917",
+      "date": "2026.11.02",
+      "author": "이현지"
+    },
+    {
+      "sector": "산업재",
+      "title": "9월 Auto Sales DataBook",
+      "msgId": "524839",
+      "attachId": "96915",
+      "date": "2026.11.02",
+      "author": "이재일"
+    },
+    {
+      "sector": "산업재",
+      "title": "현대위아 - 3Q26 Review: HEV 엔진 양산과 열관리 신사업",
+      "msgId": "524838",
+      "attachId": "96914",
+      "date": "2026.11.02",
+      "author": "이재일"
+    },
+    {
+      "sector": "산업재",
+      "title": "HL만도 - 3Q26 Review: 이익률 급락",
+      "msgId": "524836",
+      "attachId": "96912",
+      "date": "2026.11.02",
+      "author": "이재일"
+    },
+    {
+      "sector": "산업재",
+      "title": "현대오토에버 - 3Q26 Review: GPUaaS 서비스 신사업 진출",
+      "msgId": "524835",
+      "attachId": "96911",
+      "date": "2026.11.02",
+      "author": "이재일"
+    },
+    {
+      "sector": "산업재",
+      "title": "현대모비스 - 3Q26 Review: 분기 영업이익 1조가 코 앞",
+      "msgId": "524834",
+      "attachId": "96910",
+      "date": "2026.11.02",
+      "author": "이재일"
+    },
+    {
+      "sector": "산업재",
+      "title": "기아 - 3Q26 Review: EV 판매 증가의 역풍",
+      "msgId": "524833",
+      "attachId": "96909",
+      "date": "2026.11.02",
+      "author": "이재일"
+    },
+    {
+      "sector": "소재",
+      "title": "현대제철 3Q26 Review - 대형 설비 업체에겐 판매량이 중요",
+      "msgId": "524832",
+      "attachId": "96908",
+      "date": "2026.11.02",
+      "author": "김소정"
+    },
     {
       "sector": "IT",
       "title": "에이엘로봇(471800, IPO예정기업) - 힘/토크 센서와 제어 기술을 내재화한 핵심부품 기업",
@@ -9,78 +81,6 @@
       "attachId": "96891",
       "date": "2026.10.30",
       "author": "박종선"
-    },
-    {
-      "sector": "산업재",
-      "title": "두산에너빌리티 3Q26 Review - 펀더멘털은 견고, 노이즈로 인한 일시적 주가 하락",
-      "msgId": "524727",
-      "attachId": "96890",
-      "date": "2026.10.30",
-      "author": "황성현"
-    },
-    {
-      "sector": "산업재",
-      "title": "한화솔루션 3Q26 Review - 올해보다 내년",
-      "msgId": "524726",
-      "attachId": "96889",
-      "date": "2026.10.30",
-      "author": "황성현"
-    },
-    {
-      "sector": "산업재",
-      "title": "OCI홀딩스 3Q26 Review - 여전히 긍정적, 2027년 본격 성장 전망",
-      "msgId": "524725",
-      "attachId": "96888",
-      "date": "2026.10.30",
-      "author": "황성현"
-    },
-    {
-      "sector": "산업재",
-      "title": "SK이노베이션 3Q26 Review - 정유주 중 가장 덜 오름",
-      "msgId": "524724",
-      "attachId": "96887",
-      "date": "2026.10.30",
-      "author": "황성현"
-    },
-    {
-      "sector": "산업재",
-      "title": "삼성SDI 3Q26 Review - 훌륭한 실적과 미래에 대한 기대감",
-      "msgId": "524723",
-      "attachId": "96886",
-      "date": "2026.10.30",
-      "author": "황성현"
-    },
-    {
-      "sector": "산업재",
-      "title": "진에어 3Q26 Preview - 봄날은 온다",
-      "msgId": "524721",
-      "attachId": "96884",
-      "date": "2026.10.30",
-      "author": "양승윤"
-    },
-    {
-      "sector": "산업재",
-      "title": "한화에어로스페이스 3Q26 Review - 여전히 비중확대 의견, 그리고 Top-Pick",
-      "msgId": "524720",
-      "attachId": "96883",
-      "date": "2026.10.30",
-      "author": "양승윤"
-    },
-    {
-      "sector": "산업재",
-      "title": "현대차 - 3Q26 Review: 4분기 실적 반등 기대감 Up",
-      "msgId": "524719",
-      "attachId": "96882",
-      "date": "2026.10.30",
-      "author": "이재일"
-    },
-    {
-      "sector": "소재",
-      "title": "세아베스틸지주 3Q26 Review - 2보 전진을 위한 1보 후퇴",
-      "msgId": "524718",
-      "attachId": "96881",
-      "date": "2026.10.30",
-      "author": "김소정"
     }
   ]
 }
