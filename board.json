@@ -1,7 +1,47 @@
 {
-  "updatedAt": "2026-11-02T23:06:57.826Z",
+  "updatedAt": "2026-11-03T23:08:47.385Z",
   "source": "https://www.eugenefn.com/comm/msgList.do?menu_id=02010401&menu_url=/ingo/igii/igii400&menu_lever=4&board_yn=Y",
   "rows": [
+    {
+      "sector": "산업재",
+      "title": "한국항공우주 3Q26 Review - 모든 것이 바텀아웃",
+      "msgId": "525070",
+      "attachId": "96968",
+      "date": "2026.11.04",
+      "author": "양승윤"
+    },
+    {
+      "sector": "내수",
+      "title": "하이브 - 좋았고, 좋을 예정",
+      "msgId": "525066",
+      "attachId": "96964",
+      "date": "2026.11.04",
+      "author": "이현지"
+    },
+    {
+      "sector": "산업재",
+      "title": "씨앤엠(0206M0, IPO예정기업) - 가전 모터 및 자동차 전동화 핵심부품 제조업체",
+      "msgId": "525065",
+      "attachId": "96963",
+      "date": "2026.11.04",
+      "author": "박종선"
+    },
+    {
+      "sector": "IT",
+      "title": "고영(098460,KQ) - 3Q26P Review: 분기 첫 1,000억원대 매출 달성",
+      "msgId": "525063",
+      "attachId": "96961",
+      "date": "2026.11.04",
+      "author": "박종선"
+    },
+    {
+      "sector": "산업재",
+      "title": "LG에너지솔루션 3Q26 Review - 북미 ESS 70GWh",
+      "msgId": "525062",
+      "attachId": "96960",
+      "date": "2026.11.04",
+      "author": "황성현"
+    },
     {
       "sector": "산업재",
       "title": "하나에어로다이내믹스(271160, IPO예정기업) - 치공구·부품·조립 등 항공 제조 토탈 솔루션 기업",
@@ -41,46 +81,6 @@
       "attachId": "96946",
       "date": "2026.11.03",
       "author": "김소정"
-    },
-    {
-      "sector": "산업재",
-      "title": "한솔제지(213500,KS) - 3Q26P Review: 단가인상 효과로 수익성 개선 기대",
-      "msgId": "524849",
-      "attachId": "96925",
-      "date": "2026.11.02",
-      "author": "박종선"
-    },
-    {
-      "sector": "내수",
-      "title": "골프존(215000,KQ) - 3Q26P Review: 11분기만에 매출 증가세로 전환",
-      "msgId": "524848",
-      "attachId": "96924",
-      "date": "2026.11.02",
-      "author": "박종선"
-    },
-    {
-      "sector": "IT",
-      "title": "LG씨엔에스(064400,KS) - 3Q26P Review: 수익성 개선 및 시장기대치 부합",
-      "msgId": "524847",
-      "attachId": "96923",
-      "date": "2026.11.02",
-      "author": "박종선"
-    },
-    {
-      "sector": "내수",
-      "title": "SOOP - 증명이 필요한 시기",
-      "msgId": "524842",
-      "attachId": "96918",
-      "date": "2026.11.02",
-      "author": "이현지"
-    },
-    {
-      "sector": "내수",
-      "title": "제일기획 - 그래도 강력한 주주환원 의지",
-      "msgId": "524841",
-      "attachId": "96917",
-      "date": "2026.11.02",
-      "author": "이현지"
     }
   ]
 }
