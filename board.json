@@ -1,86 +1,86 @@
 {
-  "updatedAt": "2026-11-05T00:35:47.238Z",
+  "updatedAt": "2026-11-05T23:31:54.909Z",
   "source": "https://www.eugenefn.com/comm/msgList.do?menu_id=02010401&menu_url=/ingo/igii/igii400&menu_lever=4&board_yn=Y",
   "rows": [
     {
       "sector": "내수",
-      "title": "엠비디(498150, IPO예정기업) - 3D 배양 자동화 기반 랩 오토메이션 플랫폼 기업",
-      "msgId": "525204",
-      "attachId": "97002",
-      "date": "2026.11.05",
-      "author": "박종선"
+      "title": "스튜디오드래곤 - 이제 편성만 확실히 돌아와주면 된다",
+      "msgId": "525299",
+      "attachId": "97041",
+      "date": "2026.11.06",
+      "author": "이현지"
     },
     {
       "sector": "내수",
-      "title": "현대백화점 - 3Q26 Review: 본업 견조, 지누스 회복 구간",
-      "msgId": "525186",
-      "attachId": "96999",
-      "date": "2026.11.05",
-      "author": "이해니"
+      "title": "CJ ENM - 이제 남은 건 비용과의 싸움",
+      "msgId": "525298",
+      "attachId": "97040",
+      "date": "2026.11.06",
+      "author": "이현지"
     },
     {
-      "sector": "내수",
-      "title": "GS리테일 - 3Q26 Review: 슈퍼야 고마워",
-      "msgId": "525185",
-      "attachId": "96998",
-      "date": "2026.11.05",
-      "author": "이해니"
+      "sector": "산업재",
+      "title": "넥센타이어 - 3Q26 Review: 고원가 압력 지속",
+      "msgId": "525296",
+      "attachId": "97038",
+      "date": "2026.11.06",
+      "author": "이재일"
+    },
+    {
+      "sector": "산업재",
+      "title": "한온시스템 - 3Q26 Review: 신사업 가시화로 성장 동력 강화",
+      "msgId": "525295",
+      "attachId": "97037",
+      "date": "2026.11.06",
+      "author": "이재일"
     },
     {
       "sector": "IT",
-      "title": "무게중심은 2027년으로",
-      "msgId": "525182",
-      "attachId": "96995",
-      "date": "2026.11.05",
-      "author": "이찬영"
-    },
-    {
-      "sector": "통신/인터넷",
-      "title": "SK 하이퍼 CAPEX가 보내는 신호",
-      "msgId": "525181",
-      "attachId": "96994",
-      "date": "2026.11.05",
-      "author": "이찬영"
-    },
-    {
-      "sector": "통신/인터넷",
-      "title": "2년 앞당긴 AIDC, 견조한 수요의 방증",
-      "msgId": "525180",
-      "attachId": "96993",
-      "date": "2026.11.05",
-      "author": "이찬영"
-    },
-    {
-      "sector": "내수",
-      "title": "이노션 - 광고의 A to Z",
-      "msgId": "525178",
-      "attachId": "96991",
-      "date": "2026.11.05",
-      "author": "이현지"
-    },
-    {
-      "sector": "내수",
-      "title": "에스엠 - 그래도 내년은 뭐가 많다",
-      "msgId": "525177",
-      "attachId": "96990",
-      "date": "2026.11.05",
-      "author": "이현지"
-    },
-    {
-      "sector": "내수",
-      "title": "휴젤 - 3Q26 Review: 바닥 확인",
-      "msgId": "525174",
-      "attachId": "96987",
-      "date": "2026.11.05",
-      "author": "이다빈"
-    },
-    {
-      "sector": "소재",
-      "title": "제이앤티지(951425, IPO예정기업) - 탄소소재 기반의 연료전지 및 ESS용 소재 전문업체",
-      "msgId": "525173",
-      "attachId": "96986",
-      "date": "2026.11.05",
+      "title": "씨엠티엑스(388210,KQ) - 3Q26P Review: 아쉬운 수익성, 점차 회복 기대",
+      "msgId": "525294",
+      "attachId": "97036",
+      "date": "2026.11.06",
       "author": "박종선"
+    },
+    {
+      "sector": "산업재",
+      "title": "롯데에너지머티리얼즈 - 수급 타이트 해지면서 판가 인상 시작",
+      "msgId": "525293",
+      "attachId": "97035",
+      "date": "2026.11.06",
+      "author": "한병화"
+    },
+    {
+      "sector": "산업재",
+      "title": "에코프로비엠 - LFP 양극재 투자 계획 밝혀",
+      "msgId": "525292",
+      "attachId": "97034",
+      "date": "2026.11.06",
+      "author": "한병화"
+    },
+    {
+      "sector": "산업재",
+      "title": "GS 3Q26 Review - AIDC, 한국으로 풍선효과 기대",
+      "msgId": "525291",
+      "attachId": "97033",
+      "date": "2026.11.06",
+      "author": "황성현"
+    },
+    {
+      "sector": "산업재",
+      "title": "LG화학 3Q26 Review - Non-Petchem 개선 중",
+      "msgId": "525290",
+      "attachId": "97032",
+      "date": "2026.11.06",
+      "author": "황성현"
+    },
+    {
+      "sector": "통신/인터넷",
+      "title": "넷마블 - 기대 신작 가시화가 필요",
+      "msgId": "525287",
+      "attachId": "97029",
+      "date": "2026.11.06",
+      "author": "정의훈"
     }
   ]
 }
