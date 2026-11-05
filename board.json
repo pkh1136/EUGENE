@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-11-04T23:30:42.182Z",
+  "updatedAt": "2026-11-05T00:35:47.238Z",
   "source": "https://www.eugenefn.com/comm/msgList.do?menu_id=02010401&menu_url=/ingo/igii/igii400&menu_lever=4&board_yn=Y",
   "rows": [
+    {
+      "sector": "내수",
+      "title": "엠비디(498150, IPO예정기업) - 3D 배양 자동화 기반 랩 오토메이션 플랫폼 기업",
+      "msgId": "525204",
+      "attachId": "97002",
+      "date": "2026.11.05",
+      "author": "박종선"
+    },
     {
       "sector": "내수",
       "title": "현대백화점 - 3Q26 Review: 본업 견조, 지누스 회복 구간",
@@ -73,14 +81,6 @@
       "attachId": "96986",
       "date": "2026.11.05",
       "author": "박종선"
-    },
-    {
-      "sector": "산업재",
-      "title": "LX인터내셔널 3Q26 Review - 해상운임이 이끈 호실적",
-      "msgId": "525172",
-      "attachId": "96985",
-      "date": "2026.11.05",
-      "author": "황성현"
     }
   ]
 }
