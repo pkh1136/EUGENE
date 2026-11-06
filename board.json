@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-11-05T23:31:54.909Z",
+  "updatedAt": "2026-11-06T01:55:57.540Z",
   "source": "https://www.eugenefn.com/comm/msgList.do?menu_id=02010401&menu_url=/ingo/igii/igii400&menu_lever=4&board_yn=Y",
   "rows": [
+    {
+      "sector": "산업재",
+      "title": "현대차 - NDR 후기: 로보틱스에서 본업으로 초점 이동",
+      "msgId": "525316",
+      "attachId": "97043",
+      "date": "2026.11.06",
+      "author": "이재일"
+    },
     {
       "sector": "내수",
       "title": "스튜디오드래곤 - 이제 편성만 확실히 돌아와주면 된다",
@@ -73,14 +81,6 @@
       "attachId": "97032",
       "date": "2026.11.06",
       "author": "황성현"
-    },
-    {
-      "sector": "통신/인터넷",
-      "title": "넷마블 - 기대 신작 가시화가 필요",
-      "msgId": "525287",
-      "attachId": "97029",
-      "date": "2026.11.06",
-      "author": "정의훈"
     }
   ]
 }
