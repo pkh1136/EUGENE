@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-11-08T23:57:08.325Z",
+  "updatedAt": "2026-11-09T23:08:05.411Z",
   "source": "https://www.eugenefn.com/comm/msgList.do?menu_id=02010401&menu_url=/ingo/igii/igii400&menu_lever=4&board_yn=Y",
   "rows": [
+    {
+      "sector": "내수",
+      "title": "와이지엔터테인먼트 - 1H27: 빅뱅, 베몬, 트레저, 그리고 신인 2팀",
+      "msgId": "525536",
+      "attachId": "97106",
+      "date": "2026.11.10",
+      "author": "이현지"
+    },
+    {
+      "sector": "소재",
+      "title": "에스에프씨(083030, IPO예정기업) - Blue OLED 소재 강자, 바이오 등 신규 사업 확장 중",
+      "msgId": "525535",
+      "attachId": "97105",
+      "date": "2026.11.10",
+      "author": "박종선"
+    },
+    {
+      "sector": "산업재",
+      "title": "한전기술 3Q26 Review - 펀더멘털 이상 없음, 센티만 악화",
+      "msgId": "525534",
+      "attachId": "97104",
+      "date": "2026.11.10",
+      "author": "황성현"
+    },
+    {
+      "sector": "통신/인터넷",
+      "title": "KT나스미디어(089600,KQ) - 3Q26P Review: 수익성 회복 성공. 매출 성장 기대",
+      "msgId": "525532",
+      "attachId": "97102",
+      "date": "2026.11.10",
+      "author": "박종선"
+    },
+    {
+      "sector": "금융서비스",
+      "title": "헥토파이낸셜(234340,KQ) - 3Q26P Review: 주력 결제사업 안정적 성장 지속",
+      "msgId": "525531",
+      "attachId": "97101",
+      "date": "2026.11.10",
+      "author": "박종선"
+    },
+    {
+      "sector": "산업재",
+      "title": "한전KPS 3Q26 Review - 완료를 못해서 생기는 문제",
+      "msgId": "525530",
+      "attachId": "97100",
+      "date": "2026.11.10",
+      "author": "황성현"
+    },
     {
       "sector": "내수",
       "title": "한국콜마 - 3Q26 Review: 국내 매출 2분기를 넘어서다",
@@ -33,54 +81,6 @@
       "attachId": "97061",
       "date": "2026.11.09",
       "author": "황성현"
-    },
-    {
-      "sector": "내수",
-      "title": "파마리서치 - 3Q26 Review: 이익률보다 이익 성장에 주목할 시기",
-      "msgId": "525405",
-      "attachId": "97060",
-      "date": "2026.11.09",
-      "author": "이다빈"
-    },
-    {
-      "sector": "산업재",
-      "title": "LIG디펜스앤에어로스페이스 3Q26 Review - 2개월 내 해외 신규 수주 결과 기대",
-      "msgId": "525402",
-      "attachId": "97057",
-      "date": "2026.11.09",
-      "author": "양승윤"
-    },
-    {
-      "sector": "내수",
-      "title": "교촌에프앤비(339770,KS) - 3Q26P Review: 최고 매출액, 영업이익 시장기대치 상회",
-      "msgId": "525399",
-      "attachId": "97054",
-      "date": "2026.11.09",
-      "author": "박종선"
-    },
-    {
-      "sector": "IT",
-      "title": "해성디에스(195870,KS) - 3Q26P Review: 분기 최고 매출액 달성. 커버리지 개시",
-      "msgId": "525397",
-      "attachId": "97053",
-      "date": "2026.11.09",
-      "author": "박종선"
-    },
-    {
-      "sector": "산업재",
-      "title": "씨에스윈드 - 미국 중간선거가 기업 가치 향방에 가장 중요",
-      "msgId": "525394",
-      "attachId": "97050",
-      "date": "2026.11.09",
-      "author": "한병화"
-    },
-    {
-      "sector": "산업재",
-      "title": "현대차 - NDR 후기: 로보틱스에서 본업으로 초점 이동",
-      "msgId": "525316",
-      "attachId": "97043",
-      "date": "2026.11.06",
-      "author": "이재일"
     }
   ]
 }
