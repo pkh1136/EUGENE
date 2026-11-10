@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-11-10T23:04:02.552Z",
+  "updatedAt": "2026-11-10T23:56:51.987Z",
   "source": "https://www.eugenefn.com/comm/msgList.do?menu_id=02010401&menu_url=/ingo/igii/igii400&menu_lever=4&board_yn=Y",
   "rows": [
+    {
+      "sector": "내수",
+      "title": "파라다이스 - 하면, 된다",
+      "msgId": "525634",
+      "attachId": "97120",
+      "date": "2026.11.11",
+      "author": "이현지"
+    },
+    {
+      "sector": "통신/인터넷",
+      "title": "크래프톤 - 예상보다 컸던 PC매출 부진",
+      "msgId": "525632",
+      "attachId": "97118",
+      "date": "2026.11.11",
+      "author": "정의훈"
+    },
     {
       "sector": "IT",
       "title": "서울바이오시스(092190,KQ) - 3Q26P Review: 4분기 연속 영업이익 흑자 달성",
@@ -65,22 +81,6 @@
       "attachId": "97102",
       "date": "2026.11.10",
       "author": "박종선"
-    },
-    {
-      "sector": "금융서비스",
-      "title": "헥토파이낸셜(234340,KQ) - 3Q26P Review: 주력 결제사업 안정적 성장 지속",
-      "msgId": "525531",
-      "attachId": "97101",
-      "date": "2026.11.10",
-      "author": "박종선"
-    },
-    {
-      "sector": "산업재",
-      "title": "한전KPS 3Q26 Review - 완료를 못해서 생기는 문제",
-      "msgId": "525530",
-      "attachId": "97100",
-      "date": "2026.11.10",
-      "author": "황성현"
     }
   ]
 }
