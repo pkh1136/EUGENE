@@ -1,7 +1,39 @@
 {
-  "updatedAt": "2026-11-10T01:50:51.449Z",
+  "updatedAt": "2026-11-10T23:04:02.552Z",
   "source": "https://www.eugenefn.com/comm/msgList.do?menu_id=02010401&menu_url=/ingo/igii/igii400&menu_lever=4&board_yn=Y",
   "rows": [
+    {
+      "sector": "IT",
+      "title": "서울바이오시스(092190,KQ) - 3Q26P Review: 4분기 연속 영업이익 흑자 달성",
+      "msgId": "525630",
+      "attachId": "97116",
+      "date": "2026.11.11",
+      "author": "박종선"
+    },
+    {
+      "sector": "IT",
+      "title": "헥토이노베이션(214180,KQ) - 3Q26P Review: 실적 성장 지속, 시장기대치 부합",
+      "msgId": "525628",
+      "attachId": "97115",
+      "date": "2026.11.11",
+      "author": "박종선"
+    },
+    {
+      "sector": "산업재",
+      "title": "지역난방공사 3Q26 Review - 시장 컬러에 맞는 배당주로 변화",
+      "msgId": "525625",
+      "attachId": "97112",
+      "date": "2026.11.11",
+      "author": "황성현"
+    },
+    {
+      "sector": "내수",
+      "title": "메디톡스 - 3Q26 Review: 체질 개선 중",
+      "msgId": "525624",
+      "attachId": "97111",
+      "date": "2026.11.11",
+      "author": "이다빈"
+    },
     {
       "sector": "내수",
       "title": "와이지엔터테인먼트 - 1H27: 빅뱅, 베몬, 트레저, 그리고 신인 2팀",
@@ -48,38 +80,6 @@
       "msgId": "525530",
       "attachId": "97100",
       "date": "2026.11.10",
-      "author": "황성현"
-    },
-    {
-      "sector": "내수",
-      "title": "한국콜마 - 3Q26 Review: 국내 매출 2분기를 넘어서다",
-      "msgId": "525417",
-      "attachId": "97109",
-      "date": "2026.11.09",
-      "author": "이해니"
-    },
-    {
-      "sector": "산업재",
-      "title": "한국타이어앤테크놀로지 - 3Q26 Review: 안정적인 실적, 대응 가능한 관세",
-      "msgId": "525411",
-      "attachId": "97065",
-      "date": "2026.11.09",
-      "author": "이재일"
-    },
-    {
-      "sector": "산업재",
-      "title": "롯데케미칼 3Q26 Review - 구조재편으로 손익 변동성 서서히 완화될 전망",
-      "msgId": "525407",
-      "attachId": "97062",
-      "date": "2026.11.09",
-      "author": "황성현"
-    },
-    {
-      "sector": "산업재",
-      "title": "금호석유화학 3Q26 Review - 3Q 적자가 4Q 흑자로",
-      "msgId": "525406",
-      "attachId": "97061",
-      "date": "2026.11.09",
       "author": "황성현"
     }
   ]
