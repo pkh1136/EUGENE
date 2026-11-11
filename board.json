@@ -1,7 +1,71 @@
 {
-  "updatedAt": "2026-11-10T23:56:51.987Z",
+  "updatedAt": "2026-11-11T23:15:12.003Z",
   "source": "https://www.eugenefn.com/comm/msgList.do?menu_id=02010401&menu_url=/ingo/igii/igii400&menu_lever=4&board_yn=Y",
   "rows": [
+    {
+      "sector": "산업재",
+      "title": "레이언스(228850,KQ) - 3Q26P Review: 산업용 및 VET 부문 성장 견인",
+      "msgId": "525734",
+      "attachId": "97143",
+      "date": "2026.11.12",
+      "author": "박종선"
+    },
+    {
+      "sector": "소재",
+      "title": "바텍(043150,KQ) - 3Q26P Review: 7분기 연속 매출 성장세 지속",
+      "msgId": "525733",
+      "attachId": "97142",
+      "date": "2026.11.12",
+      "author": "박종선"
+    },
+    {
+      "sector": "내수",
+      "title": "코스맥스 - 3Q26 Review: 컨센서스 상회의 상회",
+      "msgId": "525731",
+      "attachId": "97141",
+      "date": "2026.11.12",
+      "author": "이해니"
+    },
+    {
+      "sector": "내수",
+      "title": "JYP Ent. - 온 세상이 스트레이키즈",
+      "msgId": "525730",
+      "attachId": "97140",
+      "date": "2026.11.12",
+      "author": "이현지"
+    },
+    {
+      "sector": "통신/인터넷",
+      "title": "네오위즈 - 신작 공백도 잘버텼지만, 신작 가시화는 필요",
+      "msgId": "525728",
+      "attachId": "97138",
+      "date": "2026.11.12",
+      "author": "정의훈"
+    },
+    {
+      "sector": "통신/인터넷",
+      "title": "NC - 2027년 매출액 가이던스 3.2~3.4조원 제시",
+      "msgId": "525727",
+      "attachId": "97137",
+      "date": "2026.11.12",
+      "author": "정의훈"
+    },
+    {
+      "sector": "내수",
+      "title": "롯데쇼핑 - 3Q26 Review: 본업의 힘",
+      "msgId": "525724",
+      "attachId": "97134",
+      "date": "2026.11.12",
+      "author": "이해니"
+    },
+    {
+      "sector": "내수",
+      "title": "신세계 - 3Q26 Review: 튼튼한 실적과 주주환원",
+      "msgId": "525723",
+      "attachId": "97133",
+      "date": "2026.11.12",
+      "author": "이해니"
+    },
     {
       "sector": "내수",
       "title": "파라다이스 - 하면, 된다",
@@ -17,70 +81,6 @@
       "attachId": "97118",
       "date": "2026.11.11",
       "author": "정의훈"
-    },
-    {
-      "sector": "IT",
-      "title": "서울바이오시스(092190,KQ) - 3Q26P Review: 4분기 연속 영업이익 흑자 달성",
-      "msgId": "525630",
-      "attachId": "97116",
-      "date": "2026.11.11",
-      "author": "박종선"
-    },
-    {
-      "sector": "IT",
-      "title": "헥토이노베이션(214180,KQ) - 3Q26P Review: 실적 성장 지속, 시장기대치 부합",
-      "msgId": "525628",
-      "attachId": "97115",
-      "date": "2026.11.11",
-      "author": "박종선"
-    },
-    {
-      "sector": "산업재",
-      "title": "지역난방공사 3Q26 Review - 시장 컬러에 맞는 배당주로 변화",
-      "msgId": "525625",
-      "attachId": "97112",
-      "date": "2026.11.11",
-      "author": "황성현"
-    },
-    {
-      "sector": "내수",
-      "title": "메디톡스 - 3Q26 Review: 체질 개선 중",
-      "msgId": "525624",
-      "attachId": "97111",
-      "date": "2026.11.11",
-      "author": "이다빈"
-    },
-    {
-      "sector": "내수",
-      "title": "와이지엔터테인먼트 - 1H27: 빅뱅, 베몬, 트레저, 그리고 신인 2팀",
-      "msgId": "525536",
-      "attachId": "97106",
-      "date": "2026.11.10",
-      "author": "이현지"
-    },
-    {
-      "sector": "소재",
-      "title": "에스에프씨(083030, IPO예정기업) - Blue OLED 소재 강자, 바이오 등 신규 사업 확장 중",
-      "msgId": "525535",
-      "attachId": "97105",
-      "date": "2026.11.10",
-      "author": "박종선"
-    },
-    {
-      "sector": "산업재",
-      "title": "한전기술 3Q26 Review - 펀더멘털 이상 없음, 센티만 악화",
-      "msgId": "525534",
-      "attachId": "97104",
-      "date": "2026.11.10",
-      "author": "황성현"
-    },
-    {
-      "sector": "통신/인터넷",
-      "title": "KT나스미디어(089600,KQ) - 3Q26P Review: 수익성 회복 성공. 매출 성장 기대",
-      "msgId": "525532",
-      "attachId": "97102",
-      "date": "2026.11.10",
-      "author": "박종선"
     }
   ]
 }
