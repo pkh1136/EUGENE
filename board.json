@@ -1,7 +1,71 @@
 {
-  "updatedAt": "2026-11-11T23:15:12.003Z",
+  "updatedAt": "2026-11-12T23:29:25.674Z",
   "source": "https://www.eugenefn.com/comm/msgList.do?menu_id=02010401&menu_url=/ingo/igii/igii400&menu_lever=4&board_yn=Y",
   "rows": [
+    {
+      "sector": "통신/인터넷",
+      "title": "펄어비스 - 양호한 붉은사막 DLC 반응, 다음은?",
+      "msgId": "525856",
+      "attachId": "97169",
+      "date": "2026.11.13",
+      "author": "정의훈"
+    },
+    {
+      "sector": "통신/인터넷",
+      "title": "NAVER - 무거워진 AI팩토리의 어깨",
+      "msgId": "525852",
+      "attachId": "97165",
+      "date": "2026.11.13",
+      "author": "정의훈"
+    },
+    {
+      "sector": "통신/인터넷",
+      "title": "더블유게임즈 - 2027년 DDI 완전 자회사화",
+      "msgId": "525851",
+      "attachId": "97164",
+      "date": "2026.11.13",
+      "author": "정의훈"
+    },
+    {
+      "sector": "내수",
+      "title": "아델(0181E0, IPO예정기업) - 퇴행성 뇌질환 치료제 개발 전문 바이오 기업",
+      "msgId": "525850",
+      "attachId": "97163",
+      "date": "2026.11.13",
+      "author": "박종선"
+    },
+    {
+      "sector": "IT",
+      "title": "텔레칩스(054450,KQ) - 3Q26P Review: 4분기 연속 흑자전환 성공",
+      "msgId": "525849",
+      "attachId": "97162",
+      "date": "2026.11.13",
+      "author": "박종선"
+    },
+    {
+      "sector": "IT",
+      "title": "사피엔반도체(452430,KQ) - 3Q26 Review: AR Glass 출시 + 광통신 신사업",
+      "msgId": "525848",
+      "attachId": "97161",
+      "date": "2026.11.13",
+      "author": "박종선"
+    },
+    {
+      "sector": "산업재",
+      "title": "솔루스첨단소재 - 4분기부터 판가 인상 시작",
+      "msgId": "525847",
+      "attachId": "97160",
+      "date": "2026.11.13",
+      "author": "한병화"
+    },
+    {
+      "sector": "산업재",
+      "title": "한국가스공사 3Q26 Review - 캐나다 LNG가 하드캐리",
+      "msgId": "525846",
+      "attachId": "97159",
+      "date": "2026.11.13",
+      "author": "황성현"
+    },
     {
       "sector": "산업재",
       "title": "레이언스(228850,KQ) - 3Q26P Review: 산업용 및 VET 부문 성장 견인",
@@ -17,70 +81,6 @@
       "attachId": "97142",
       "date": "2026.11.12",
       "author": "박종선"
-    },
-    {
-      "sector": "내수",
-      "title": "코스맥스 - 3Q26 Review: 컨센서스 상회의 상회",
-      "msgId": "525731",
-      "attachId": "97141",
-      "date": "2026.11.12",
-      "author": "이해니"
-    },
-    {
-      "sector": "내수",
-      "title": "JYP Ent. - 온 세상이 스트레이키즈",
-      "msgId": "525730",
-      "attachId": "97140",
-      "date": "2026.11.12",
-      "author": "이현지"
-    },
-    {
-      "sector": "통신/인터넷",
-      "title": "네오위즈 - 신작 공백도 잘버텼지만, 신작 가시화는 필요",
-      "msgId": "525728",
-      "attachId": "97138",
-      "date": "2026.11.12",
-      "author": "정의훈"
-    },
-    {
-      "sector": "통신/인터넷",
-      "title": "NC - 2027년 매출액 가이던스 3.2~3.4조원 제시",
-      "msgId": "525727",
-      "attachId": "97137",
-      "date": "2026.11.12",
-      "author": "정의훈"
-    },
-    {
-      "sector": "내수",
-      "title": "롯데쇼핑 - 3Q26 Review: 본업의 힘",
-      "msgId": "525724",
-      "attachId": "97134",
-      "date": "2026.11.12",
-      "author": "이해니"
-    },
-    {
-      "sector": "내수",
-      "title": "신세계 - 3Q26 Review: 튼튼한 실적과 주주환원",
-      "msgId": "525723",
-      "attachId": "97133",
-      "date": "2026.11.12",
-      "author": "이해니"
-    },
-    {
-      "sector": "내수",
-      "title": "파라다이스 - 하면, 된다",
-      "msgId": "525634",
-      "attachId": "97120",
-      "date": "2026.11.11",
-      "author": "이현지"
-    },
-    {
-      "sector": "통신/인터넷",
-      "title": "크래프톤 - 예상보다 컸던 PC매출 부진",
-      "msgId": "525632",
-      "attachId": "97118",
-      "date": "2026.11.11",
-      "author": "정의훈"
     }
   ]
 }
